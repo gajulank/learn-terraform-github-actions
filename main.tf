@@ -11,6 +11,17 @@ terraform {
   }
   required_version = ">= 1.1.0"
 
+#  cloud {
+#    organization = "nandeesh-personal"
+#
+#    workspaces {
+#      name = "gh-actions-demo"
+#    }
+#  }
+}
+
+
+terraform {
   cloud {
     organization = "nandeesh-personal"
 
